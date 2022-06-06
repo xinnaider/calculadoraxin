@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Testando</title>
+</head>
+<script src="script.js"></script>
+<body>
+
+    <div class="completo">
+
+        <div class="dentro">
+        <p id="resultado"></p>
+
+        <div>
+            <button class="botao" onclick="clean()">C</button>
+            <button class="botao" onclick="back()"><</button>
+            <button class="botao" onclick="insert('/')">/</button>
+            <button class="botao" onclick="insert('*')">*</button>
+        </div>
+
+        <div class="linha1">
+            <button class="botao" onclick="insert('1')">1</button> 
+            <button class="botao" onclick="insert('2')">2</button> 
+            <button class="botao" onclick="insert('3')">3</button> 
+            <button class="botao" onclick="insert('+')">+</button>
+        </div>
+
+        <div class="linha2">
+            <button class="botao" onclick="insert('4')">4</button> 
+            <button class="botao" onclick="insert('5')">5</button>
+            <button class="botao" onclick="insert('6')">6</button> 
+            <button class="botao">-</button> 
+        </div>
+
+        <div class="linha3">
+            <button class="botao" onclick="insert('7')">7</button> 
+            <button class="botao" onclick="insert('8')">8</button>
+            <button class="botao" onclick="insert('9')">9</button>
+            <button id="butao1" onclick="calcular()">=</button>
+        </div>
+
+        <div class="linha4">
+            <button id="butao0" onclick="insert('0')">0</button>
+            <button class="botao" onclick="insert('.')">.</button> 
+        </div>
+        </div>
+    </div>
+</body>
+</html>
